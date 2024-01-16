@@ -1,7 +1,6 @@
 public abstract class Animal {
     private int legs;
     Food food;
-    //String name;
     public Animal(int l, Food f) {
         legs = l;
         food = new Food(f);
