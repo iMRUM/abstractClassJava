@@ -3,7 +3,6 @@ public class Main {
         Bird bird = new Bird();
         Dog dog = new Dog("pepe", "momo");
         StrayCat cat = new StrayCat("trent");
-        bird.fly();
         System.out.println("bird, quantity:"+bird.getFoodQuantity()+" source:"+bird.getFoodSource());
         bird.fly();
         bird.makeSound();
