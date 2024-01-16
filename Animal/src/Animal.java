@@ -18,11 +18,7 @@ public abstract class Animal {
         return food.getQuantity();
     }
 
-    //    public Animal(int l, Food f, String n) {
-//        legs = l;
-//        food = new Food(f);
-//        this.name = n;
-//    }
+
     public abstract void makeSound();
 }
 class Bird extends Animal{
